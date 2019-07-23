@@ -1,10 +1,17 @@
-# JournalFront
+# angular-ivy-tailwind-boilerplate
+
+Angular 8, Ivy, Tailwind CSS working base setup
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 
+## Usage
+1. Install ng-tailwindcss globally: `npm i ng-tailwindcss -g` 
+2. Install required local dependecies: `npm install`
+3. May require additional setup according to [ng-tailwindcss](https://www.npmjs.com/package/ng-tailwindcss)
+
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -12,7 +19,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `npm build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
